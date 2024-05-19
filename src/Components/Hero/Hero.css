@@ -1,0 +1,46 @@
+.hero{
+    height:100vh;
+    background:linear-gradient(rgba(223, 213, 213, 0.852),rgba(116, 84, 84, 0.322));
+    display: flex;
+}
+.hero-left{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:20px;
+    padding-left: 180px;
+    line-height:1.1;
+}
+.hero-left h2{
+    color:rgb(7, 7, 7);
+    font-size: 26px;
+    font-weight:700;
+}
+.hero-left p{
+    color:rgb(12, 12, 12);
+    font-size:100px;
+    font-weight:500;
+}
+.hand{
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+.hand img{
+    width:105px;
+}
+.latest{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:15px;
+    width:310px;
+    height:70px;
+    border-radius:75px;
+    margin-top: 30px;
+    background:orangered;
+    color:white;
+    font-size:20px;
+    font-weight:200;
+}
